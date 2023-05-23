@@ -1,3 +1,11 @@
+// Operation on Linked List:
+// Creation
+// Insertion (At the Beginning , At the End , At any specified position in between)
+// Deletion
+// Traversing
+// Searching
+
+
 #include<iostream>
 
 using namespace std;
