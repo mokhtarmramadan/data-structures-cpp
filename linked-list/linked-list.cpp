@@ -211,8 +211,18 @@ class list{
 
             }
             return false;
-
         }
+
+        // Concatenate two linked lists 
+        list operator+(list &m){
+
+			node *temp = this->start;
+			while ( temp->next != NULL ){
+				temp = temp->next;
+			}
+			temp->next=m.start;
+			return *this;
+		}
     
 };
 
