@@ -1,3 +1,5 @@
+// Stack Dynamic Implementation Using Pointers (linked lists )
+
 #include<iostream>
 using namespace std;
 
