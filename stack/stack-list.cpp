@@ -16,7 +16,7 @@ class stack{
         stack() {top == NULL; }
 
     void push(int data){
-        // Create a new node with a next pointer qual NULL
+        // Create a new node with a next pointer equals NULL
         node *newnode = new node;
         newnode -> data = data;
 
